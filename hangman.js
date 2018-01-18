@@ -65,6 +65,7 @@ const checkForLetter = keyCode => {
   }
 };
 
+
 document.addEventListener('DOMContentLoaded', () => {
   currentWord = words[Math.floor(Math.random() * words.length)];
   currentWordSplit = currentWord.split('');
