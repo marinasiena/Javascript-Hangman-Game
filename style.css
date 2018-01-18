@@ -1,0 +1,33 @@
+body {
+  background-color: #eceeef;
+  min-height: 100vh;
+  padding: 4vw;
+
+  #app {
+    grid: repeat(3, 1fr) / repeat(3, 1fr);
+    display: grid;
+  }
+
+  .letters {
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 1 / -1;
+    display: flex;
+
+    > div {
+      padding-bottom: .125em;
+      box-shadow: 0 5px 0 0;
+      text-align: center;
+      margin-right: 2vw;
+      margin-left: 2vw;
+      font-size: 4vw;
+      flex: 1;
+    }
+  }
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  line-height: 1.5;
+  margin: 0;
+}

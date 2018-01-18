@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css">
+
+    <div id="app">
+      <div id="wrapper">
+        <h1 class="chrome">HANGMAN</h1>
+        <h3 class="dreams">Words I Hate</h3>
+      </div>
+      <div class="container">
+        <div id="main-section">
+          <p>Press any letter key to begin.</p>
+          <div>
+            <h3 class="section-title">Wins</h3>
+            <!-- The div where our wins will be shown. -->
+            <div id="wins"></div>
+          </div>
+          <div id="current-word-section">
+            <h3 class="section-title">Current Word</h3>
+          </div>
+        </div>
+        <div id="current-word"></div>
+      <div id="guesses-remaining-section">
+        <h3 class="section-title">Number of Guesses Remaining</h3>
+      </div>
+      </div>
+    </div>
+
+    <template id="letter-template">
+       <div class="letter"></div>
+      </template>
+    <script type="text/javascript" src="hangman.js"></script>
