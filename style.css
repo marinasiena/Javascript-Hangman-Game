@@ -1,7 +1,7 @@
 body {
   background-color: #eceeef;
-  min-height: 100vh;
-  padding: 4vw;
+  /* min-height: 100vh;
+  padding: 4vw; */
 
   #app {
     grid: repeat(3, 1fr) / repeat(3, 1fr);
